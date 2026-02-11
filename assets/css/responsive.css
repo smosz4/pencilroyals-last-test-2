@@ -1,0 +1,427 @@
+/* Old mobile menu styles removed - using hamburger button instead */
+
+/* ==============================
+   TABLET & SMALL DEVICES
+   ============================== */
+@media (max-width: 768px) {
+  .grid-2,
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .finalists-grid,
+  .schools-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .container {
+    padding: 15px;
+  }
+
+  header nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  header nav a {
+    margin: 5px 0;
+    font-size: 0.9rem;
+  }
+
+  .hero {
+    padding: 60px 15px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .auth-box {
+    padding: 25px 20px;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+
+  .deadline-notice {
+    font-size: 1rem;
+  }
+
+  .finalist-pair {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .school-card-footer {
+    flex-direction: row;
+  }
+
+  .org-section {
+    padding: 40px 15px;
+    border-top: 2px solid var(--primary-gold);
+    border-bottom: 2px solid var(--primary-gold);
+  }
+
+  .org-section::before {
+    width: 250px;
+    height: 250px;
+  }
+
+  .org-section::after {
+    width: 200px;
+    height: 200px;
+  }
+
+  .org-content-wrapper {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .org-info-container {
+    padding: 20px;
+  }
+
+  .org-illustration-container {
+    min-height: 250px;
+  }
+
+  .org-illustration-placeholder {
+    min-height: 250px;
+  }
+
+  .org-logo {
+    max-height: 250px;
+  }
+
+  .illustrations-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+
+  .illustration-image {
+    height: 150px;
+  }
+}
+
+/* ==============================
+   MOBILE DEVICES
+   ============================== */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  .btn {
+    padding: 8px 16px;
+    font-size: 0.85rem;
+  }
+
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    font-size: 0.9rem;
+    padding: 10px 12px;
+  }
+
+  header nav {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  header nav a {
+    font-size: 0.85rem;
+  }
+
+  .logo {
+    font-size: 1.1rem;
+  }
+
+  .hero {
+    padding: 50px 15px;
+  }
+
+  .hero h1 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+  }
+
+  .card {
+    padding: 15px;
+  }
+
+  .search-bar {
+    padding: 10px 12px;
+    font-size: 0.9rem;
+  }
+
+  .school-card-title {
+    font-size: 1rem;
+  }
+
+  .school-card-location {
+    font-size: 0.85rem;
+  }
+
+  table {
+    font-size: 0.85rem;
+  }
+
+  table th,
+  table td {
+    padding: 10px 8px;
+  }
+
+  .rank-badge {
+    width: 28px;
+    height: 28px;
+    font-size: 0.8rem;
+  }
+
+  .org-content-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .org-logo {
+    max-height: 200px;
+  }
+
+  .org-info-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .org-illustration-container {
+    min-height: 200px;
+  }
+
+  .org-illustration-placeholder {
+    min-height: 200px;
+    padding: 20px;
+  }
+
+  .org-illustration-placeholder i {
+    font-size: 3rem !important;
+  }
+
+  .org-actions {
+    flex-direction: column;
+  }
+
+  .illustrations-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .illustration-image {
+    height: 200px;
+  }
+
+  /* Better spacing for mobile forms */
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .form-group label {
+    font-size: 0.9rem;
+    margin-bottom: 6px;
+  }
+
+  /* Smaller text on mobile */
+  .deadline-notice {
+    font-size: 0.95rem;
+  }
+
+  /* Improve table readability on mobile */
+  .top-students-table {
+    font-size: 0.8rem;
+  }
+
+  .top-students-table th,
+  .top-students-table td {
+    padding: 8px 6px;
+  }
+
+  /* Better card layout on mobile */
+  .card {
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+
+  .card-header {
+    margin-bottom: 15px;
+  }
+
+  /* Improve section spacing */
+  .illustration-space {
+    padding: 30px 0;
+  }
+
+  .illustration-placeholder {
+    min-height: 200px;
+  }
+
+  /* Better hero spacing on mobile */
+  .hero::before {
+    width: 300px;
+    height: 300px;
+  }
+
+  /* Animation delays on mobile (faster) */
+  @media (max-width: 480px) {
+    .scroll-animate,
+    .scroll-animate-scale,
+    .scroll-animate-left,
+    .scroll-animate-right {
+      transition-duration: 0.4s;
+    }
+  }
+}
+
+/* Hamburger Menu Styles */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  background: none;
+  border: none;
+  cursor: pointer;
+  gap: 6px;
+  padding: 10px;
+  z-index: 210;
+}
+
+.hamburger span {
+  width: 28px;
+  height: 3px;
+  background-color: #1a3c5e;
+  transition: all 0.3s ease;
+  border-radius: 2px;
+}
+
+.hamburger.active span:nth-child(1) {
+  transform: rotate(45deg) translate(10px, 10px);
+}
+
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -7px);
+}
+
+/* Desktop Navigation - Always Visible */
+@media (min-width: 769px) {
+  .hamburger {
+    display: none !important;
+  }
+
+  nav.nav-menu {
+    display: flex !important;
+    position: static;
+    background: none;
+    flex-direction: row;
+    gap: 25px;
+    padding: 0;
+    box-shadow: none;
+    animation: none;
+  }
+
+  nav.nav-menu a {
+    border-bottom: none !important;
+    padding: 0 !important;
+  }
+
+  nav.nav-menu a:hover {
+    background: none !important;
+  }
+}
+
+/* Mobile Navigation */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  nav.nav-menu {
+    display: none;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    right: 0;
+    background: linear-gradient(135deg, #ffffff 0%, #f5f5f5 100%);
+    flex-direction: column;
+    gap: 0;
+    padding: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    z-index: 150;
+    animation: slideInDown 0.3s ease-out;
+  }
+
+  nav.nav-menu.active {
+    display: flex;
+  }
+
+  nav.nav-menu a {
+    padding: 15px 15px;
+    border-bottom: 1px solid #e0e0e0;
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+
+  nav.nav-menu a:last-child {
+    border-bottom: none;
+  }
+
+  nav.nav-menu a:hover {
+    background: #f0f0f0;
+    padding-left: 25px;
+  }
+
+  nav.nav-menu a.btn {
+    background: #c9a961;
+    color: white;
+    border-radius: 6px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  nav.nav-menu a.btn:hover {
+    background: #b8966d;
+  }
+
+  @keyframes slideInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
